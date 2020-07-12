@@ -5,18 +5,10 @@ document.querySelector('.fa-bars').addEventListener('click',()=>{
 
 // --- BOTONES MENU ------------------------------------------------------
 
-document.querySelector('.name-principal').addEventListener('click',()=>{
-    document.querySelector('.content-iam-one').classList.remove('show'),
-    document.querySelector('.content-cosas-hago').classList.remove('show'),
-    document.querySelector('.blog').classList.remove('show'),
-    document.querySelector('.content-home').classList.add('show');
-});
-
 document.querySelector('.link-quien-soy').addEventListener('click',()=>{
     document.querySelector('.content-iam-one').classList.add('show'),
     document.querySelector('.content-cosas-hago').classList.remove('show'),
     document.querySelector('.blog').classList.remove('show'),
-    document.querySelector('.content-home').classList.remove('show'),
     document.querySelector('.nav-menu').classList.remove('show');
 });
 
@@ -24,7 +16,6 @@ document.querySelector('.link-cosas-hago').addEventListener('click',()=>{
     document.querySelector('.content-iam-one').classList.remove('show'),
     document.querySelector('.content-cosas-hago').classList.add('show'),
     document.querySelector('.blog').classList.remove('show'),
-    document.querySelector('.content-home').classList.remove('show'),
     document.querySelector('.nav-menu').classList.remove('show');
 });
 
@@ -32,7 +23,6 @@ document.querySelector('.link-blogp').addEventListener('click',()=>{
     document.querySelector('.content-iam-one').classList.remove('show'),
     document.querySelector('.content-cosas-hago').classList.remove('show'),
     document.querySelector('.blog').classList.add('show'),
-    document.querySelector('.content-home').classList.remove('show'),
     document.querySelector('.nav-menu').classList.remove('show');
 });
 
